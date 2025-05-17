@@ -1,10 +1,10 @@
-# 🚀 Multi-Threaded File Downloader (Interactive)
+# Multi-Threaded File Downloader (Interactive)
 
 This project is a Python-based multi-threaded downloader that allows users to download multiple files (TXT, PDF, CSV, etc.) from URLs using threading and progress bars. It supports automatic folder creation and retry logic, and logs all download events.
 
 ---
 
-## 📦 Features
+## Features
 
 - ✅ Interactive input (no CLI needed)
 - ✅ Download multiple files concurrently
@@ -23,3 +23,15 @@ Install required libraries:
 
 ```bash
 pip install requests tqdm
+```
+## How to Run
+```bash
+python downloader.py
+```
+## Output Folder
+```
+downloads/
+└── [file_type]/
+    ├── file1.txt
+    ├── file2.txt
+```
